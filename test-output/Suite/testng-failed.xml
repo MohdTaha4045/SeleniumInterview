@@ -5,9 +5,9 @@
     <classes>
       <class name="Test.ProperTestNG">
         <methods>
-          <include name="setup"/>
-          <include name="tearDown"/>
           <include name="handleIframe"/>
+          <include name="iframe2"/>
+          <include name="inneriframe"/>
         </methods>
       </class> <!-- Test.ProperTestNG -->
     </classes>
