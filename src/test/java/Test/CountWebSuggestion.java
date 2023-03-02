@@ -26,7 +26,7 @@ public class CountWebSuggestion
         String string_with_digits_only = splitResult[1].replaceAll("[^0-9]+", "");
 
         int integer_value = Integer.parseInt(string_with_digits_only);
-        System.out.println(integer_value);
+        //System.out.println(integer_value);
         if(integer_value>50000)
         {
         	System.out.println("Results are greater then 50,000");
@@ -49,9 +49,9 @@ public class CountWebSuggestion
            bodyText = bodyText.substring(index + 1);
            index = bodyText.indexOf(word);
         }
-
+        
         System.out.println("'Fleek It Solutions' repeated "+count+" times");
-        driver.quit();
+       	driver.quit();
   }
 
 
